@@ -12,51 +12,12 @@ import com.a7.model.values.IntValue;
 import com.a7.model.values.StringValue;
 import com.a7.repository.IRepository;
 import com.a7.repository.Repository;
-import com.a7.view.TextMenu;
-import com.a7.view.commands.RunExample;
 
 import java.util.ArrayList;
 
 public class Interpreter {
-
-    static void addProgram(IStatement mainStatement, TextMenu menu, int index)
-    {
-        try {
-            mainStatement.typeCheck(new MyDictionary<>(String.class, IType.class));
-        }
-        catch (InterpreterException ex) {
-            System.out.println("Program " + index + " failed type check with the message: " + ex.getMessage());
-            System.out.println(mainStatement.toString().indent(4));
-            return;
-        }
-
-        ProgramState programState = new ProgramState(mainStatement);
-        IRepository repository = new Repository("log" + index + ".txt");
-        repository.getProgramList().add(programState);
-        Controller controller = new Controller(repository);
-        menu.addCommand(new RunExample(Integer.toString(index), mainStatement.toString(), controller));
-    }
-
-    static void addProgram(IStatement mainStatement, ArrayList<Controller> controllers, int index) {
-        try {
-            mainStatement.typeCheck(new MyDictionary<>(String.class, IType.class));
-        }
-        catch (InterpreterException ex) {
-            System.out.println("Program " + index + " failed type check with the message: " + ex.getMessage());
-            System.out.println(mainStatement.toString().indent(4));
-            return;
-        }
-
-        ProgramState programState = new ProgramState(mainStatement);
-        IRepository repository = new Repository("log" + index + ".txt");
-        repository.getProgramList().add(programState);
-        Controller controller = new Controller(repository);
-        controllers.add(controller);
-    }
-
     @SuppressWarnings({"DuplicatedCode", "SpellCheckingInspection"})
-    public static void main(String[] args) {
-
+    static ArrayList<IStatement> getStatements() {
         IStatement ex1 = new CompoundStatement(
                 new VariableDeclarationStatement("v", IntType.get()),
                 new CompoundStatement(
@@ -285,22 +246,44 @@ public class Interpreter {
                 )
         );
 
-        // var menu = new TextMenu();
-        // menu.addCommand(new ExitCommand("0", "exit"));
-        var menu = new ArrayList<Controller>();
-        addProgram(ex1, menu, 1);
-        addProgram(ex2, menu, 2);
-        addProgram(ex3, menu, 3);
-        addProgram(ex4, menu, 4);
-        addProgram(ex5, menu, 5);
-        addProgram(ex6, menu, 6);
-        addProgram(ex7, menu, 7);
-        addProgram(ex8, menu, 8);
-        addProgram(ex9, menu, 9);
-        addProgram(ex10, menu, 10);
-        addProgram(ex11, menu, 11);
-        // menu.show();
+        var result = new ArrayList<IStatement>();
+        result.add(ex1);
+        result.add(ex2);
+        result.add(ex3);
+        result.add(ex4);
+        result.add(ex5);
+        result.add(ex6);
+        result.add(ex7);
+        result.add(ex8);
+        result.add(ex9);
+        result.add(ex10);
+        result.add(ex11);
+        return result;
+    }
 
-        HelloApplication.main(menu);
+    public static ArrayList<Controller> getControllers() {
+        var mainStatements = getStatements();
+        var result = new ArrayList<Controller>();
+
+        for (int i = 0; i < mainStatements.size(); ++i) {
+            var mainStatement = mainStatements.get(i);
+
+            try {
+                mainStatement.typeCheck(new MyDictionary<>(String.class, IType.class));
+            }
+            catch (InterpreterException ex) {
+                System.out.println("Program " + i + " failed type check with the message: " + ex.getMessage());
+                System.out.println(mainStatement.toString().indent(4));
+                continue;
+            }
+
+            ProgramState programState = new ProgramState(mainStatement);
+            IRepository repository = new Repository("log" + i + ".txt");
+            repository.getProgramList().add(programState);
+            Controller controller = new Controller(repository);
+            result.add(controller);
+        }
+
+        return result;
     }
 }

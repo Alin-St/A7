@@ -1,5 +1,5 @@
 @SuppressWarnings("JavaModuleNaming")
-module com.example.a7 {
+module com.a7 {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -11,4 +11,15 @@ module com.example.a7 {
     opens com.a7.gui to javafx.fxml;
     exports com.a7;
     exports com.a7.gui;
+
+    exports com.a7.controller;
+    exports com.a7.model.exceptions;
+    exports com.a7.model.expressions;
+    exports com.a7.model.garbageCollector;
+    exports com.a7.model.programState;
+    exports com.a7.model.statements;
+    exports com.a7.model.types;
+    exports com.a7.model.utility;
+    exports com.a7.model.values;
+    exports com.a7.repository;
 }

@@ -17,7 +17,6 @@ public class Controller {
 
     private final IRepository _repository;
     private boolean _displayFlag;
-    private ExecutorService _executor;
 
     public Controller(IRepository repository) {
         _repository = repository;
@@ -29,7 +28,7 @@ public class Controller {
 
     public void setDisplayFlag(boolean value) { _displayFlag = value; }
 
-    public void oneStepForAllPrograms(List<ProgramState> programStates) throws InterruptedException {
+    public void oneStepForAllPrograms(List<ProgramState> programStates, ExecutorService executor) throws InterruptedException {
         // Log program states before execution.
         programStates.forEach(p -> {
             try { _repository.logProgramState(p, "Program state before execution (id " + p.getId() + "):"); }
@@ -42,7 +41,7 @@ public class Controller {
                 .toList();
 
         // Start the execution of callables (returns the list of new threads).
-        List<ProgramState> newPrograms = _executor.invokeAll(callList).stream()
+        List<ProgramState> newPrograms = executor.invokeAll(callList).stream()
                 .map(future -> {
                     try { return future.get(); }
                     catch (InterruptedException | ExecutionException e) {
@@ -68,7 +67,7 @@ public class Controller {
 
     public void allSteps() throws InterpreterException, InterruptedException {
 
-        _executor = Executors.newFixedThreadPool(2);
+        ExecutorService executor = Executors.newFixedThreadPool(2);
 
         // Remove completed programs.
         List<ProgramState> programStates = removeCompletedPrograms(_repository.getProgramList());
@@ -81,10 +80,10 @@ public class Controller {
             programStates.forEach(p -> p.setHeapTable(newHeap));
 
             // One-step execution.
-            oneStepForAllPrograms(programStates);
+            oneStepForAllPrograms(programStates, executor);
             programStates = removeCompletedPrograms(_repository.getProgramList());
         }
-        _executor.shutdown();
+        executor.shutdown();
 
         // The com.example.a7.repository should contain at least one completed program (its list is not empty).
 
