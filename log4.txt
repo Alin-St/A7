@@ -1,0 +1,230 @@
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 4);
+        print(4 != 5);
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 4);
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 4);
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 4) |
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 4) |
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 != 5) |
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 4);
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 4) |
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 4) |
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+        -> false
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        print(4 < 5)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+        -> false
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 5):
+    Id:
+        5
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        -> false
+        -> true
+        -> false
+        -> true
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+

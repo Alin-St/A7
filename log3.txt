@@ -1,0 +1,2661 @@
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        -> 0
+        -> 0
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf;
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        string varf |
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in";
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        varf = "test.in" |
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = ""
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf);
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        openRFile(varf) |
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc;
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        int varc |
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 0
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        No output data.
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc);
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc);
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        readFile(varf, varc) |
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 10
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        print(varc) |
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        closeRFile(varf)
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        "test.in"
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 4):
+    Id:
+        4
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        varf = "test.in"
+        varc = 11
+    Output:
+        -> 10
+        -> 11
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
