@@ -23,7 +23,6 @@ public class ConditionalStatement implements IStatement {
 
     @Override
     public String toString() {
-        var ts = _thenStatement.toString().indent(4);
         return "IF " + _condition.toString() + " THEN\n" + _thenStatement.toString().indent(4) + "ELSE\n" +
                 _elseStatement.toString().indent(4) + "END_IF";
     }

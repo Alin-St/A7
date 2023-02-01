@@ -246,6 +246,38 @@ public class Interpreter {
                 )
         );
 
+        IStatement ex12 = new CompoundStatement(
+                new VariableDeclarationStatement("a", IntType.get()),
+        new CompoundStatement(
+                new VariableDeclarationStatement("b", IntType.get()),
+        new CompoundStatement(
+                new VariableDeclarationStatement("c", IntType.get()),
+        new CompoundStatement(
+                new AssignmentStatement("a", new ValueExpression(new IntValue(1))),
+        new CompoundStatement(
+                new AssignmentStatement("b", new ValueExpression(new IntValue(2))),
+        new CompoundStatement(
+                new AssignmentStatement("c", new ValueExpression(new IntValue(5))),
+        new CompoundStatement(
+                new SwitchStatement(
+                        new ArithmeticExpression(new VariableExpression("a"),
+                                new ValueExpression(new IntValue(10)), ArithmeticOperator.MULTIPLICATION),
+                        new ArithmeticExpression(new VariableExpression("b"),
+                                new VariableExpression("c"), ArithmeticOperator.MULTIPLICATION),
+                        new CompoundStatement(
+                                new PrintStatement(new VariableExpression("a")),
+                                new PrintStatement(new VariableExpression("b"))
+                        ),
+                        new ValueExpression(new IntValue(10)),
+                        new CompoundStatement(
+                                new PrintStatement(new ValueExpression(new IntValue(100))),
+                                new PrintStatement(new ValueExpression(new IntValue(200)))
+                        ),
+                        new PrintStatement(new ValueExpression(new IntValue(300)))
+                ),
+                new PrintStatement(new ValueExpression(new IntValue(300)))
+        )))))));
+
         var result = new ArrayList<IStatement>();
         result.add(ex1);
         result.add(ex2);
@@ -258,6 +290,7 @@ public class Interpreter {
         result.add(ex9);
         result.add(ex10);
         result.add(ex11);
+        result.add(ex12);
         return result;
     }
 
