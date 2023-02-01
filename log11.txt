@@ -1,0 +1,5504 @@
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 2
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 300
+        -> 1
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a;
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int a |
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        No Symbol declared.
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b;
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int b |
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c;
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        int c |
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1;
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        a = 1 |
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 0
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2;
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        b = 2 |
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 0
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5;
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        c = 5 |
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 0
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        );
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        switch (a * 10)
+        (case b * c:
+            print(a);
+            print(b)
+        ) (case 10:
+            print(100);
+            print(200)
+        ) ( default:
+            print(300)
+        ) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        IF (a * 10) == (b * c) THEN
+            print(a);
+            print(b)
+        ELSE
+            IF (a * 10) == 10 THEN
+                print(100);
+                print(200)
+            ELSE
+                print(300)
+            END_IF
+        END_IF |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a);
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(a) |
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        No output data.
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(b) |
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 1
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 1
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state before execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        print(300)
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 1
+        -> 2
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
+Program state after execution (id 9):
+    Id:
+        9
+    Execution Stack:
+        Execution stack empty.
+    Symbol Table:
+        a = 1
+        b = 2
+        c = 5
+    Output:
+        -> 1
+        -> 2
+        -> 300
+    File Table:
+        No file descriptor.
+    Heap Table:
+        Heap is empty.
+
